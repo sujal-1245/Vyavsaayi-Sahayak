@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" type="image/png" href="/static/images/vs_logo.png">
+</head>
+<body>
+    <div class="edit-profile-container">
+        <h1>Edit Profile</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" value="{{ user.name }}" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" value="{{ user.email }}" required>
+
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" value="{{ user.phone }}" required>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" value="{{ user.address }}" required>
+
+            <label for="education">Education</label>
+            <input type="text" id="education" name="education" value="{{ user.education }}" required>
+
+            <label for="occupation">Occupation</label>
+            <input type="text" id="occupation" name="occupation" value="{{ user.occupation }}" required>
+
+            <label for="photo">Upload Photo</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container, .edit-profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007bff;
+}
+
+.profile-details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button, .edit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover, .edit-button:hover {
+    background-color: #0056b3;
+}
+
+</style>
+
+</body>
+</html>

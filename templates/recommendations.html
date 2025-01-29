@@ -1,0 +1,722 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Vyavsaayi Sahayak</title>
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/nucleo-icons.css">
+    <link rel="stylesheet" href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/nucleo-svg.css">
+    <link rel="stylesheet" href="https://demos.creative-tim.com/soft-ui-dashboard/assets/css/soft-ui-dashboard.min.css?v=1.0.2">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="stylesheet" href="/static/assets/css/theme.css">
+    <link rel="stylesheet" href="/static/assets/css/loopple/loopple.css">
+    <link rel="icon" type="image/png" href="/static/images/vs_logo.png">
+  </head>
+  
+  <body class="g-sidenav-show">
+    <nav class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start position-absolute ms-3 bg-white loopple-fixed-start" id="sidenav-main" data-sidebar="true" data-sidebar-value="52">
+        <div class="collapse navbar-collapse  w-auto" id="sidenav-collapse-main">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="{{ url_for('home') }}">
+                        <div class="icon icon-shape icon-sm shadow border-radius-md text-center me-2 d-flex align-items-center justify-content-center bg-gradient-dark">
+                            <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>shop </title>
+                                <g id="Basic-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Rounded-Icons" transform="translate(-1716.000000, -439.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                        <g id="Icons-with-opacity" transform="translate(1716.000000, 291.000000)">
+                                            <g id="shop-" transform="translate(0.000000, 148.000000)">
+                                                <path class="color-background" d="M46.7199583,10.7414583 L40.8449583,0.949791667 C40.4909749,0.360605034 39.8540131,0 39.1666667,0 L7.83333333,0 C7.1459869,0 6.50902508,0.360605034 6.15504167,0.949791667 L0.280041667,10.7414583 C0.0969176761,11.0460037 -1.23209662e-05,11.3946378 -1.23209662e-05,11.75 C-0.00758042603,16.0663731 3.48367543,19.5725301 7.80004167,19.5833333 L7.81570833,19.5833333 C9.75003686,19.5882688 11.6168794,18.8726691 13.0522917,17.5760417 C16.0171492,20.2556967 20.5292675,20.2556967 23.494125,17.5760417 C26.4604562,20.2616016 30.9794188,20.2616016 33.94575,17.5760417 C36.2421905,19.6477597 39.5441143,20.1708521 42.3684437,18.9103691 C45.1927731,17.649886 47.0084685,14.8428276 47.0000295,11.75 C47.0000295,11.3946378 46.9030823,11.0460037 46.7199583,10.7414583 Z" id="Path" opacity="0.598981585"></path>
+                                                <path class="color-background" d="M39.198,22.4912623 C37.3776246,22.4928106 35.5817531,22.0149171 33.951625,21.0951667 L33.92225,21.1107282 C31.1430221,22.6838032 27.9255001,22.9318916 24.9844167,21.7998837 C24.4750389,21.605469 23.9777983,21.3722567 23.4960833,21.1018359 L23.4745417,21.1129513 C20.6961809,22.6871153 17.4786145,22.9344611 14.5386667,21.7998837 C14.029926,21.6054643 13.533337,21.3722507 13.0522917,21.1018359 C11.4250962,22.0190609 9.63246555,22.4947009 7.81570833,22.4912623 C7.16510551,22.4842162 6.51607673,22.4173045 5.875,22.2911849 L5.875,44.7220845 C5.875,45.9498589 6.7517757,46.9451667 7.83333333,46.9451667 L19.5833333,46.9451667 L19.5833333,33.6066734 L27.4166667,33.6066734 L27.4166667,46.9451667 L39.1666667,46.9451667 C40.2482243,46.9451667 41.125,45.9498589 41.125,44.7220845 L41.125,22.2822926 C40.4887822,22.4116582 39.8442868,22.4815492 39.198,22.4912623 Z" id="Path"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="nav-link-text ms-1">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href="{{url_for('loancalculator')}}">
+                        <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+   viewBox="0 0 460 460" xml:space="preserve">
+  <g id="XMLID_241_">
+  <g>
+    <path d="M369.635,0H90.365C73.595,0,60,13.595,60,30.365v399.27C60,446.405,73.595,460,90.365,460h279.27
+      c16.77,0,30.365-13.595,30.365-30.365V30.365C400,13.595,386.405,0,369.635,0z M108.204,343.61v-43.196
+      c0-3.451,2.797-6.248,6.248-6.248h43.196c3.451,0,6.248,2.797,6.248,6.248v43.196c0,3.451-2.797,6.248-6.248,6.248h-43.196
+      C111.001,349.858,108.204,347.06,108.204,343.61z M108.204,256.61v-43.196c0-3.451,2.797-6.248,6.248-6.248h43.196
+      c3.451,0,6.248,2.797,6.248,6.248v43.196c0,3.451-2.797,6.248-6.248,6.248h-43.196C111.001,262.858,108.204,260.06,108.204,256.61
+      z M308.891,421H151.109c-11.046,0-20-8.954-20-20c0-11.046,8.954-20,20-20h157.782c11.046,0,20,8.954,20,20
+      C328.891,412.046,319.937,421,308.891,421z M208.402,294.165h43.196c3.451,0,6.248,2.797,6.248,6.248v43.196
+      c0,3.451-2.797,6.248-6.248,6.248h-43.196c-3.451,0-6.248-2.797-6.248-6.248v-43.196
+      C202.154,296.963,204.951,294.165,208.402,294.165z M202.154,256.61v-43.196c0-3.451,2.797-6.248,6.248-6.248h43.196
+      c3.451,0,6.248,2.797,6.248,6.248v43.196c0,3.451-2.797,6.248-6.248,6.248h-43.196C204.951,262.858,202.154,260.06,202.154,256.61
+      z M345.548,349.858h-43.196c-3.451,0-6.248-2.797-6.248-6.248v-43.196c0-3.451,2.797-6.248,6.248-6.248h43.196
+      c3.451,0,6.248,2.797,6.248,6.248v43.196h0C351.796,347.061,348.999,349.858,345.548,349.858z M345.548,262.858h-43.196
+      c-3.451,0-6.248-2.797-6.248-6.248v-43.196c0-3.451,2.797-6.248,6.248-6.248h43.196c3.451,0,6.248,2.797,6.248,6.248v43.196h0
+      C351.796,260.061,348.999,262.858,345.548,262.858z M354,149.637c0,11.799-9.565,21.363-21.363,21.363H127.364
+      C115.565,171,106,161.435,106,149.637V62.363C106,50.565,115.565,41,127.364,41h205.273C344.435,41,354,50.565,354,62.363V149.637
+      z"/>
+  </g>
+  </g>
+  </svg>
+                        </div>
+                        <span class="nav-link-text ms-1 calculateLoanButton" id="calculateLoanButton">Loan Calculator</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href="{{ url_for ('profit') }}">
+                        <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <svg fill="#000000" width="1000px" height="100px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M541.7 768v-45.3c46.3-2.4 81.5-15 108.7-37.8 27.2-22.8 40.8-53.1 40.8-88.2 0-37.8-11-65.7-35.3-83.4-24.6-20.1-59.8-35.4-111.6-45.3h-2.6V351.8c35.3 5.1 65.3 15 95.1 35.4l43.6-55.5c-43.6-27.9-89.9-42.9-138.8-45.3V256h-40.8v30.3c-40.8 2.4-76.3 15-103.5 37.8-27.2 22.8-40.8 53.1-40.8 88.2s11 63 35.3 80.7c21.7 17.7 59.8 32.7 108.7 42.9v118.5c-38.2-5.1-76.3-22.8-114.2-53.1l-48.9 53.1c48.9 40.5 103.5 63 163.3 68.1V768h41zm2.6-219.6c27.2 7.5 43.6 15 54.4 22.8 8.1 10.2 13.6 20.1 13.6 35.4s-5.5 25.2-19.1 35.4c-13.6 10.2-30.1 15-48.9 17.7V548.4zM449.2 440c-8.1-7.5-13.6-20.1-13.6-32.7 0-15 5.5-25.2 16.2-35.4 13.6-10.2 27.2-15 48.9-17.7v108.6c-27.2-7.8-43.4-15.3-51.5-22.8z"></path>
+                            </svg>
+                        </div>
+                        <span class="nav-link-text ms-1 analyzeProfitButton">Analyse Profit</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href="{{ url_for ('growbusiness') }}">
+                        <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <svg fill="#000000" width="1000px" height="100px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M541.7 768v-45.3c46.3-2.4 81.5-15 108.7-37.8 27.2-22.8 40.8-53.1 40.8-88.2 0-37.8-11-65.7-35.3-83.4-24.6-20.1-59.8-35.4-111.6-45.3h-2.6V351.8c35.3 5.1 65.3 15 95.1 35.4l43.6-55.5c-43.6-27.9-89.9-42.9-138.8-45.3V256h-40.8v30.3c-40.8 2.4-76.3 15-103.5 37.8-27.2 22.8-40.8 53.1-40.8 88.2s11 63 35.3 80.7c21.7 17.7 59.8 32.7 108.7 42.9v118.5c-38.2-5.1-76.3-22.8-114.2-53.1l-48.9 53.1c48.9 40.5 103.5 63 163.3 68.1V768h41zm2.6-219.6c27.2 7.5 43.6 15 54.4 22.8 8.1 10.2 13.6 20.1 13.6 35.4s-5.5 25.2-19.1 35.4c-13.6 10.2-30.1 15-48.9 17.7V548.4zM449.2 440c-8.1-7.5-13.6-20.1-13.6-32.7 0-15 5.5-25.2 16.2-35.4 13.6-10.2 27.2-15 48.9-17.7v108.6c-27.2-7.8-43.4-15.3-51.5-22.8z"></path>
+                            </svg>
+                        </div>
+                        <span class="nav-link-text ms-1 growBusinessButton">Recommendations</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('summarize_docs') }}">
+  
+                        <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <svg height="1000px" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 303.188 303.188" xml:space="preserve">
+                                <g>
+                                    <polygon style="fill:#E8E8E8;" points="219.821,0 32.842,0 32.842,303.188 270.346,303.188 270.346,50.525 	"></polygon>
+                                    <path style="fill:#FB3449;" d="M230.013,149.935c-3.643-6.493-16.231-8.533-22.006-9.451c-4.552-0.724-9.199-0.94-13.803-0.936
+    c-3.615-0.024-7.177,0.154-10.693,0.354c-1.296,0.087-2.579,0.199-3.861,0.31c-1.314-1.36-2.584-2.765-3.813-4.202
+    c-7.82-9.257-14.134-19.755-19.279-30.664c1.366-5.271,2.459-10.772,3.119-16.485c1.205-10.427,1.619-22.31-2.288-32.251
+    c-1.349-3.431-4.946-7.608-9.096-5.528c-4.771,2.392-6.113,9.169-6.502,13.973c-0.313,3.883-0.094,7.776,0.558,11.594
+    c0.664,3.844,1.733,7.494,2.897,11.139c1.086,3.342,2.283,6.658,3.588,9.943c-0.828,2.586-1.707,5.127-2.63,7.603
+    c-2.152,5.643-4.479,11.004-6.717,16.161c-1.18,2.557-2.335,5.06-3.465,7.507c-3.576,7.855-7.458,15.566-11.815,23.02
+    c-10.163,3.585-19.283,7.741-26.857,12.625c-4.063,2.625-7.652,5.476-10.641,8.603c-2.822,2.952-5.69,6.783-5.941,11.024
+    c-0.141,2.394,0.807,4.717,2.768,6.137c2.697,2.015,6.271,1.881,9.4,1.225c10.25-2.15,18.121-10.961,24.824-18.387
+    c4.617-5.115,9.872-11.61,15.369-19.465c0.012-0.018,0.024-0.036,0.037-0.054c9.428-2.923,19.689-5.391,30.579-7.205
+    c4.975-0.825,10.082-1.5,15.291-1.974c3.663,3.431,7.621,6.555,11.939,9.164c3.363,2.069,6.94,3.816,10.684,5.119
+    c3.786,1.237,7.595,2.247,11.528,2.886c1.986,0.284,4.017,0.413,6.092,0.335c4.631-0.175,11.278-1.951,11.714-7.57
+    C231.127,152.765,230.756,151.257,230.013,149.935z M119.144,160.245c-2.169,3.36-4.261,6.382-6.232,9.041
+    c-4.827,6.568-10.34,14.369-18.322,17.286c-1.516,0.554-3.512,1.126-5.616,1.002c-1.874-0.11-3.722-0.937-3.637-3.065
+    c0.042-1.114,0.587-2.535,1.423-3.931c0.915-1.531,2.048-2.935,3.275-4.226c2.629-2.762,5.953-5.439,9.777-7.918
+    c5.865-3.805,12.867-7.23,20.672-10.286C120.035,158.858,119.587,159.564,119.144,160.245z M146.366,75.985
+    c-0.602-3.514-0.693-7.077-0.323-10.503c0.184-1.713,0.533-3.385,1.038-4.952c0.428-1.33,1.352-4.576,2.826-4.993
+    c2.43-0.688,3.177,4.529,3.452,6.005c1.566,8.396,0.186,17.733-1.693,25.969c-0.299,1.31-0.632,2.599-0.973,3.883
+    c-0.582-1.601-1.137-3.207-1.648-4.821C147.945,83.048,146.939,79.482,146.366,75.985z M163.049,142.265
+    c-9.13,1.48-17.815,3.419-25.979,5.708c0.983-0.275,5.475-8.788,6.477-10.555c4.721-8.315,8.583-17.042,11.358-26.197
+    c4.9,9.691,10.847,18.962,18.153,27.214c0.673,0.749,1.357,1.489,2.053,2.22C171.017,141.096,166.988,141.633,163.049,142.265z
+     M224.793,153.959c-0.334,1.805-4.189,2.837-5.988,3.121c-5.316,0.836-10.94,0.167-16.028-1.542
+    c-3.491-1.172-6.858-2.768-10.057-4.688c-3.18-1.921-6.155-4.181-8.936-6.673c3.429-0.206,6.9-0.341,10.388-0.275
+    c3.488,0.035,7.003,0.211,10.475,0.664c6.511,0.726,13.807,2.961,18.932,7.186C224.588,152.585,224.91,153.321,224.793,153.959z"></path>
+                                    <polygon style="fill:#FB3449;" points="227.64,25.263 32.842,25.263 32.842,0 219.821,0 	"></polygon>
+                                    <g>
+                                        <path style="fill:#A4A9AD;" d="M126.841,241.152c0,5.361-1.58,9.501-4.742,12.421c-3.162,2.921-7.652,4.381-13.472,4.381h-3.643
+      v15.917H92.022v-47.979h16.606c6.06,0,10.611,1.324,13.652,3.971C125.321,232.51,126.841,236.273,126.841,241.152z
+       M104.985,247.387h2.363c1.947,0,3.495-0.546,4.644-1.641c1.149-1.094,1.723-2.604,1.723-4.529c0-3.238-1.794-4.857-5.382-4.857
+      h-3.348C104.985,236.36,104.985,247.387,104.985,247.387z"></path>
+                                        <path style="fill:#A4A9AD;" d="M175.215,248.864c0,8.007-2.205,14.177-6.613,18.509s-10.606,6.498-18.591,6.498h-15.523v-47.979
+      h16.606c7.701,0,13.646,1.969,17.836,5.907C173.119,235.737,175.215,241.426,175.215,248.864z M161.76,249.324
+      c0-4.398-0.87-7.657-2.609-9.78c-1.739-2.122-4.381-3.183-7.926-3.183h-3.773v26.877h2.888c3.939,0,6.826-1.143,8.664-3.43
+      C160.841,257.523,161.76,254.028,161.76,249.324z"></path>
+                                        <path style="fill:#A4A9AD;" d="M196.579,273.871h-12.766v-47.979h28.355v10.403h-15.589v9.156h14.374v10.403h-14.374
+      L196.579,273.871L196.579,273.871z"></path>
+                                    </g>
+                                    <polygon style="fill:#D1D3D3;" points="219.821,50.525 270.346,50.525 219.821,0 	"></polygon>
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="nav-link-text ms-1 summarizeDocsButton">Summarize Docs</span>
+                    </a>
+                </li>
+  
+                <li class="nav-item mt-3">
+                    <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Accounts</h6>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href = "{{ url_for('signin') }}";>
+                        <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>customer-support</title>
+                                <g id="Basic-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Rounded-Icons" transform="translate(-1717.000000, -291.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                        <g id="Icons-with-opacity" transform="translate(1716.000000, 291.000000)">
+                                            <g id="customer-support" transform="translate(1.000000, 0.000000)">
+                                                <path class="color-background" d="M45,0 L26,0 C25.447,0 25,0.447 25,1 L25,20 C25,20.379 25.214,20.725 25.553,20.895 C25.694,20.965 25.848,21 26,21 C26.212,21 26.424,20.933 26.6,20.8 L34.333,15 L45,15 C45.553,15 46,14.553 46,14 L46,1 C46,0.447 45.553,0 45,0 Z" id="Path" opacity="0.59858631"></path>
+                                                <path class="color-foreground" d="M22.883,32.86 C20.761,32.012 17.324,31 13,31 C8.676,31 5.239,32.012 3.116,32.86 C1.224,33.619 0,35.438 0,37.494 L0,41 C0,41.553 0.447,42 1,42 L25,42 C25.553,42 26,41.553 26,41 L26,37.494 C26,35.438 24.776,33.619 22.883,32.86 Z" id="Path"></path>
+                                                <path class="color-foreground" d="M13,28 C17.432,28 21,22.529 21,18 C21,13.589 17.411,10 13,10 C8.589,10 5,13.589 5,18 C5,22.529 8.568,28 13,28 Z" id="Path"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="nav-link-text ms-1">Logout</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+    <div class="main-content" id="panel">
+        <nav class="navbar nav navbar-main navbar-expand-lg px-0 mx-4 mt-3 shadow-none border-radius-xl" id="navbarTop" data-navbar="true" data-navbar-value="48">
+            <div class="container-fluid">
+                <h5  id="website-heading"> Vyavsayi Sahayak </h5>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="navbar-nav navbar-nav-hover ms-auto">
+                        <div class="row">
+                            <div class="col-auto m-auto">
+                                <a class="cursor-pointer">
+                                    <i class="fa fa-cog fixed-plugin-button-nav" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="col-auto m-auto">
+                                <div class="dropdown">
+                                    <a class="cursor-pointer" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa fa-bell" aria-hidden="true"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-right px-2 py-3 ms-n4" aria-labelledby="dropdownMenuButton">
+                                        ...
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="bg-white border-radius-lg d-flex me-2">
+                                    <!-- Profile Button -->
+
+                                    <button class="btn my-1 me-1 btn-dark" onclick="redirectToProfile()">Profile</button>
+                                    <script>
+                                      function redirectToProfile() {
+                                          // Redirect to the Flask route for profile
+                                          location.href = "/profile";
+                                      }
+                                  </script>                                    <!-- Translate Button with Dropdown -->
+                                    <div class="dropdown">
+                                        <button class="btn my-1 me-1 btn-dark dropdown-toggle" type="button" id="translateButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Translate 
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="translateButton">
+                                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('en')">English</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('hi')">Hindi</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('mr')">Marathi</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('pa')">Punjabi</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('bn')">Bengali</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('ta')">Tamil</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('te')">Telugu</a></li>
+                                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('kn')">Kannada</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                const translations = {
+    en: {
+        profile: "Profile",
+        translate: "Translate",
+        analyzeProfit: "Analyse your profit",
+        calculateLoan: "Calculate your loan",
+        summarizeDocs: "Summarize documents",
+        growBusiness: "Grow your business",
+        salesOverview: "Sales overview",
+        home: "Home",
+        loanCalculator: "Loan Calculator",
+        recommendations: "Recommendations",
+        summarizeDocsButton: "Summarize Docs",
+        website_heading: "Vyavsayi Sahayak",
+    },
+    hi: {
+        profile: "प्रोफ़ाइल",
+        translate: "अनुवाद करें",
+        analyzeProfit: "अपने लाभ का विश्लेषण करें",
+        calculateLoan: "ऋण की गणना करें",
+        summarizeDocs: "दस्तावेज़ संक्षेपित करें",
+        growBusiness: "अपने व्यवसाय को बढ़ाएं",
+        salesOverview: "बिक्री अवलोकन",
+        home: "घर",
+        loanCalculator: "ऋण गणक",
+        recommendations: "सिफारिशें",
+        summarizeDocsButton: "दस्तावेज़ संक्षेपित करें",
+        website_heading: "व्यावसायी सहायक",
+    },
+    mr: {
+        profile: "प्रोफाइल",
+        translate: "भाषांतर",
+        analyzeProfit: "आपल्या नफ्याचे विश्लेषण करा",
+        calculateLoan: "तुमचा कर्ज काढा",
+        summarizeDocs: "दस्तऐवजांचे सारांश तयार करा",
+        growBusiness: "तुमचा व्यवसाय वाढवा",
+        salesOverview: "विक्रीचे अवलोकन",
+        home: "मुख्य पृष्ठ",
+        loanCalculator: "कर्ज गणक",
+        recommendations: "सूचना",
+        summarizeDocsButton: "दस्तऐवजांचे सारांश तयार करा",
+        website_heading: "व्यावसायिक सहाय्यक",
+    },
+    pa: {
+        profile: "ਪ੍ਰੋਫਾਈਲ",
+        translate: "ਅਨੁਵਾਦ ਕਰੋ",
+        analyzeProfit: "ਆਪਣੇ ਲਾਭ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ",
+        calculateLoan: "ਆਪਣਾ ਕਰਜ਼ਾ ਗਣਨਾ ਕਰੋ",
+        summarizeDocs: "ਦਸਤਾਵੇਜ਼ਾਂ ਦਾ ਸਾਰ ਸੰਪਾਦਿਤ ਕਰੋ",
+        growBusiness: "ਆਪਣੇ ਕਾਰੋਬਾਰ ਨੂੰ ਵਧਾਓ",
+        salesOverview: "ਵਿਕਰੀ ਝਲਕ",
+        home: "ਘਰ",
+        loanCalculator: "ਕਰਜ਼ਾ ਗਣਨਾ ਕਰਨ ਵਾਲਾ",
+        recommendations: "ਸਿਫਾਰਸ਼ਾਂ",
+        summarizeDocsButton: "ਦਸਤਾਵੇਜ਼ਾਂ ਦਾ ਸਾਰ ਸੰਪਾਦਿਤ ਕਰੋ",
+        website_heading: "ਵਿਆਵਸਾਇਕ ਸਹਾਇਕ",
+    },
+    bn: {
+        profile: "প্রোফাইল",
+        translate: "অনুবাদ করুন",
+        analyzeProfit: "আপনার লাভ বিশ্লেষণ করুন",
+        calculateLoan: "আপনার ঋণ গণনা করুন",
+        summarizeDocs: "দস্তাবেজ সারসংক্ষেপ করুন",
+        growBusiness: "আপনার ব্যবসা বৃদ্ধি করুন",
+        salesOverview: "বিক্রয় পর্যালোচনা",
+        home: "বাড়ি",
+        loanCalculator: "ঋণ ক্যালকুলেটর",
+        recommendations: "প্রস্তাবনা",
+        summarizeDocsButton: "দস্তাবেজ সারসংক্ষেপ করুন",
+        website_heading: "ব্যবসায়ী সহায়ক",
+    },
+    ta: {
+        profile: "சுயவிவரம்",
+        translate: "மொழிபெயர்",
+        analyzeProfit: "உங்கள் லாபத்தை பகுப்பாய்வு செய்யுங்கள்",
+        calculateLoan: "உங்கள் கடனைக் கணக்கிடுங்கள்",
+        summarizeDocs: "ஆவணங்களை சுருக்குங்கள்",
+        growBusiness: "உங்கள் வியாபாரத்தை வளர்க்கவும்",
+        salesOverview: "விற்பனை அறிக்கைகள்",
+        home: "வீடு",
+        loanCalculator: "கடன் கணக்கி",
+        recommendations: " பரிந்துரைகள்",
+        summarizeDocsButton: "ஆவணங்களை சுருக்குங்கள்",
+        website_heading: "வியாபார உதவி",
+    },
+    te: {
+        profile: "ప్రొఫైల్",
+        translate: "అనువదించు",
+        analyzeProfit: "మీ లాభాన్ని విశ్లేషించండి",
+        calculateLoan: "మీ కంటే లెక్కించండి",
+        summarizeDocs: "పత్రాలు సంక్షిప్తం చేయండి",
+        growBusiness: "మీ వ్యాపారాన్ని పెంచండి",
+        salesOverview: "సేల్స్ అవలోకనం",
+        home: "హోమ్",
+        loanCalculator: "ఋణ గణనాత్మక",
+        recommendations: "సిఫారసులు",
+        summarizeDocsButton: "పత్రాలు సంక్షిప్తం చేయండి",
+        website_heading: "వ్యవసాయ సహాయం",
+    },
+    kn: {
+        profile: "ಪ್ರೊಫೈಲ್",
+        translate: "ಅನುವಾದಿಸು",
+        analyzeProfit: "ನಿಮ್ಮ ಲಾಭವನ್ನು ವಿಶ್ಲೇಷಿಸಿ",
+        calculateLoan: "ನಿಮ್ಮ ಸಾಲವನ್ನು ಲెక్కಿಸು",
+        summarizeDocs: "ಡಾಕ್ಯುಮೆಂಟುಗಳನ್ನು ಸಂಕ್ಷಿಪ್ತ ಮಾಡಿ",
+        growBusiness: "ನಿಮ್ಮ ವ್ಯವಹಾರವನ್ನು ವೃದ್ಧಿಸಿ",
+        salesOverview: "ಮಾರಾಟ ಅವಲೋಕನ",
+        home: "ಮುಖಪುಟ",
+        loanCalculator: "ಕರ್ಜ ಗಣಕ",
+        recommendations: "ಆಗ्रहಣಗಳು",
+        summarizeDocsButton: "ಡಾಕ್ಯುಮೆಂಟುಗಳನ್ನು ಸಂಕ್ಷಿಪ್ತ ಮಾಡಿ",
+        website_heading: "ವ್ಯಾವಸಾಯ ಸಹಾಯಕ",
+    },
+  };
+  
+                            
+                                // Function to change language
+                                function changeLanguage(language) {
+                                    document.querySelector('.btn-dark:first-child').innerText = translations[language].profile;
+                                    document.getElementById('translateButton').innerText = translations[language].translate;
+                                    document.getElementById('website-heading').innerText = translations[language].website_heading;
+                                    // Other buttons
+    const analyzeProfitButtons = document.querySelectorAll('.analyzeProfitButton');
+    const calculateLoanButtons = document.querySelectorAll('.calculateLoanButton');
+    const summarizeDocsButtons = document.querySelectorAll('.summarizeDocsButton');
+    const growBusinessButtons = document.querySelectorAll('.growBusinessButton');
+    const salesOverviewButtons = document.querySelectorAll('.salesOverviewButton');
+    
+    analyzeProfitButtons.forEach(button => {
+        button.innerText = translations[language].analyzeProfit;
+    });
+    calculateLoanButtons.forEach(button => {
+        button.innerText = translations[language].calculateLoan;
+    });
+    summarizeDocsButtons.forEach(button => {
+        button.innerText = translations[language].summarizeDocs;
+    });
+    growBusinessButtons.forEach(button => {
+        button.innerText = translations[language].growBusiness;
+    });
+    salesOverviewButtons.forEach(button => {
+        button.innerText = translations[language].salesOverview;
+    });
+  
+    // Links
+    const homeLinks = document.querySelectorAll('.homeLink');
+    const loanCalculatorLinks = document.querySelectorAll('.loanCalculatorLink');
+    const recommendationsLinks = document.querySelectorAll('.recommendationsLink');
+    const summarizeDocsLinks = document.querySelectorAll('.summarizeDocsLink');
+  
+    homeLinks.forEach(link => {
+        link.innerText = translations[language].home;
+    });
+    loanCalculatorLinks.forEach(link => {
+        link.innerText = translations[language].loanCalculator;
+    });
+    recommendationsLinks.forEach(link => {
+        link.innerText = translations[language].recommendations;
+    });
+    summarizeDocsLinks.forEach(link => {
+        link.innerText = translations[language].summarizeDocsButton;
+    });
+  
+                                }
+                            </script>
+                            
+                            
+                            
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <style>
+            body {
+              font-family: Arial, sans-serif;
+              background-color: #f4f4f9;
+              color: #333;
+              margin: 0;
+              padding: 20px;
+            }
+            .container {
+              max-width: 500px;
+              margin: 0 auto;
+              background: #fff;
+              padding: 20px;
+              border-radius: 10px;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+              text-align: center;
+              margin-bottom: 20px;
+            }
+            label {
+              display: block;
+              margin-bottom: 5px;
+              font-weight: bold;
+            }
+            input, select, button {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 15px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+            }
+            button {
+              background-color: #007bff;
+              color: #fff;
+              font-size: 16px;
+              cursor: pointer;
+            }
+            button:hover {
+              background-color: #0056b3;
+            }
+            .result {
+              margin-top: 20px;
+              font-weight: bold;
+              color: green;
+            }
+            .error {
+              color: red;
+              font-weight: bold;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="container">
+            <h1>Loan Recommendation</h1>
+            <p>( Fill the following form to know what type of loan is best for you )</p>
+            <form id="loanForm">
+              <label for="age">Age:</label>
+              <input type="number" id="age" name="age" required>
+        
+              <label for="annual_income">Annual Income:</label>
+              <input type="number" id="annual_income" name="annual_income" required>
+        
+              <label for="monthly_expenses">Monthly Expenses:</label>
+              <input type="number" id="monthly_expenses" name="monthly_expenses" required>
+        
+              <label for="home_ownership">Home Ownership:</label>
+              <select id="home_ownership" name="home_ownership">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+        
+              <label for="house_area">House Area (sq ft):</label>
+              <input type="number" id="house_area" name="house_area" required>
+        
+              <label for="sanitary_availability">Sanitary Availability:</label>
+              <select id="sanitary_availability" name="sanitary_availability">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+        
+              <label for="water_availability">Water Availability:</label>
+              <select id="water_availability" name="water_availability">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+        
+              <label for="occupants_count">Number of Occupants:</label>
+              <input type="number" id="occupants_count" name="occupants_count" required>
+        
+              <label for="loan_amount">Desired Loan Amount:</label>
+              <input type="number" id="loan_amount" name="loan_amount" required>
+        
+              <label for="young_dependents">Number of Young Dependents:</label>
+              <input type="number" id="young_dependents" name="young_dependents" required>
+        
+              <button type="button" onclick="getRecommendation()">Get Recommendation</button>
+            </form>
+            <div id="result" class="result"></div>
+            <div id="error" class="error"></div>
+          </div>
+        
+          <script>
+            async function getRecommendation() {
+              const form = document.getElementById('loanForm');
+              const formData = new FormData(form);
+              const data = Object.fromEntries(formData);
+        
+              try {
+                const response = await fetch('http://127.0.0.1:5000/predict', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify(data)
+                });
+        
+                const result = await response.json();
+                if (result.error) {
+                  document.getElementById('error').textContent = `Error: ${result.error}`;
+                } else {
+                  document.getElementById('result').textContent = `Recommended Loan Type: ${result.recommended_loan}`;
+                  document.getElementById('error').textContent = '';
+                }
+              } catch (error) {
+                document.getElementById('error').textContent = `Error: ${error.message}`;
+              }
+            }
+        
+            async function getRecommendation() {
+          const form = document.getElementById('loanForm');
+          const formData = new FormData(form);
+          const data = Object.fromEntries(formData);
+        
+          try {
+            const response = await fetch('http://127.0.0.1:5000/predict', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(data)
+            });
+        
+            const result = await response.json();
+            if (result.error) {
+              document.getElementById('error').textContent = `Error: ${result.error}`;
+              document.getElementById('result').textContent = '';
+            } else {
+              document.getElementById('result').textContent = `Recommended Loan Type: ${result.recommended_loan}`;
+              document.getElementById('error').textContent = '';
+            }
+          } catch (error) {
+            document.getElementById('error').textContent = `Error: ${error.message}`;
+          }
+        }
+        
+          </script>
+    
+    <script src="https://demos.creative-tim.com/soft-ui-dashboard/assets/js/core/popper.min.js"></script>
+    <script src="https://demos.creative-tim.com/soft-ui-dashboard/assets/js/core/bootstrap.min.js"></script>
+    <script src="https://demos.creative-tim.com/soft-ui-dashboard/assets/js/plugins/chartjs.min.js"></script>
+    <script src="https://demos.creative-tim.com/soft-ui-dashboard/assets/js/plugins/Chart.extension.js"></script>
+    <script src="https://demos.creative-tim.com/soft-ui-dashboard/assets/js/soft-ui-dashboard.min.js?v=1.0.2"></script>
+    <script>
+        if (document.querySelector("#chart-bars")) {
+             var ctx = document.getElementById("chart-bars").getContext("2d");
+             new Chart(ctx, {
+              type: "bar",
+              data: {
+                labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                datasets: [{
+                  label: "Sales",
+                  tension: 0.4,
+                  borderWidth: 0,
+                  borderRadius: 4,
+                  borderSkipped: false,
+                  backgroundColor: "#fff",
+                  data: [450, 200, 100, 220, 500, 100, 400, 230, 500],
+                  maxBarThickness: 6
+                }, ],
+              },
+              options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                  legend: {
+                    display: false,
+                  }
+                },
+                interaction: {
+                  intersect: false,
+                  mode: 'index',
+                },
+                scales: {
+                  y: {
+                    grid: {
+                      drawBorder: false,
+                      display: false,
+                      drawOnChartArea: false,
+                      drawTicks: false,
+                    },
+                    ticks: {
+                      suggestedMin: 0,
+                      suggestedMax: 500,
+                      beginAtZero: true,
+                      padding: 15,
+                      font: {
+                        size: 14,
+                        family: "Open Sans",
+                        style: 'normal',
+                        lineHeight: 2
+                      },
+                      color: "#fff"
+                    },
+                  },
+                  x: {
+                    grid: {
+                      drawBorder: false,
+                      display: false,
+                      drawOnChartArea: false,
+                      drawTicks: false
+                    },
+                    ticks: {
+                      display: false
+                    },
+                  },
+                },
+              },
+            });
+        
+           };
+           if (document.querySelector("#chart-line")) {
+             var ctx2 = document.getElementById("chart-line").getContext("2d");
+             var gradientStroke1 = ctx2.createLinearGradient(0, 230, 0, 50);
+             gradientStroke1.addColorStop(1, "rgba(203,12,159,0.2)");
+             gradientStroke1.addColorStop(0.2, "rgba(72,72,176,0.0)");
+             gradientStroke1.addColorStop(0, "rgba(203,12,159,0)");
+             var gradientStroke2 = ctx2.createLinearGradient(0, 230, 0, 50);
+             gradientStroke2.addColorStop(1, "rgba(20,23,39,0.2)");
+             gradientStroke2.addColorStop(0.2, "rgba(72,72,176,0.0)");
+             gradientStroke2.addColorStop(0, "rgba(20,23,39,0)");
+             new Chart(ctx2, {
+              type: "line",
+              data: {
+                labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                datasets: [{
+                    label: "Mobile apps",
+                    tension: 0.4,
+                    borderWidth: 0,
+                    pointRadius: 0,
+                    borderColor: "#cb0c9f",
+                    borderWidth: 3,
+                    backgroundColor: gradientStroke1,
+                    fill: true,
+                    data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+                    maxBarThickness: 6
+        
+                  },
+                  {
+                    label: "Websites",
+                    tension: 0.4,
+                    borderWidth: 0,
+                    pointRadius: 0,
+                    borderColor: "#3A416F",
+                    borderWidth: 3,
+                    backgroundColor: gradientStroke2,
+                    fill: true,
+                    data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+                    maxBarThickness: 6
+                  },
+                ],
+              },
+              options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                  legend: {
+                    display: false,
+                  }
+                },
+                interaction: {
+                  intersect: false,
+                  mode: 'index',
+                },
+                scales: {
+                  y: {
+                    grid: {
+                      drawBorder: false,
+                      display: true,
+                      drawOnChartArea: true,
+                      drawTicks: false,
+                      borderDash: [5, 5]
+                    },
+                    ticks: {
+                      display: true,
+                      padding: 10,
+                      color: '#b2b9bf',
+                      font: {
+                        size: 11,
+                        family: "Open Sans",
+                        style: 'normal',
+                        lineHeight: 2
+                      },
+                    }
+                  },
+                  x: {
+                    grid: {
+                      drawBorder: false,
+                      display: false,
+                      drawOnChartArea: false,
+                      drawTicks: false,
+                      borderDash: [5, 5]
+                    },
+                    ticks: {
+                      display: true,
+                      color: '#b2b9bf',
+                      padding: 20,
+                      font: {
+                        size: 11,
+                        family: "Open Sans",
+                        style: 'normal',
+                        lineHeight: 2
+                      },
+                    }
+                  },
+                },
+              },
+            }); 
+           };
+    </script>
+    <script src="./assets/js/loopple/loopple.js"></script>
+  </body>
