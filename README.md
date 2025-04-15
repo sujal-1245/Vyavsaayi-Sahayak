@@ -2,6 +2,11 @@
 
 **Vyavsaayi Sahayak** is a web-based application designed to support small-scale businesses in rural India and contribute to Aatmanirbhar Bharat. It provides essential business tools and intelligent features that help users make informed decisions—available in their local languages.
 
+# 📷 Screenshot
+
+![image](https://github.com/user-attachments/assets/2c968ed1-c81d-471d-9e50-d53b667eadd7)
+
+
 ## 🚀 Features
 
 - 📊 **Business Analysis Dashboard**: Smart visual insights to track and analyze business performance.
