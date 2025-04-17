@@ -29,7 +29,7 @@ To empower local entrepreneurs by giving them digital tools that are simple, eff
 
 - **Sujal Bhagat** – [@sujal-1245](https://github.com/sujal-1245)  
 - **Aditi Bhoir** – [@Aditibhoir](https://github.com/Aditibhoir)  
-- **Akshata Undhekar** – [@akshataundhekar23](https://github.com/akshataundhekar23)
+- **Akshat Aundhekar** – [@akshataundhekar23](https://github.com/akshataundhekar23)
 
 ---
 
